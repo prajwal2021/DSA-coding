@@ -1,1 +1,5 @@
-
+arr=[2,3,3,2,4]
+res = 0 
+for n in arr:
+  res = n ^ res
+  print(res)
